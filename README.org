@@ -21,7 +21,7 @@
   Links to the source code of recommended versions of additional packages are listed below.  Any
   package selected should be downloaded and unpacked in the third-party directory (~ThirdParty-13~).
 *** Scotch/PtScotch
-    + https://gforge.inria.fr/frs/download.php/file/38187/scotch_6.0.9.tar.gz
+    + https://gitlab.inria.fr/scotch/scotch/-/archive/v7.0.8/scotch-v7.0.8.tar.bz2
     + This package is already present in the third-party directory.
 *** Zoltan
     + https://github.com/sandialabs/Zoltan/archive/refs/tags/v3.90.tar.gz
