@@ -257,7 +257,7 @@ OpenFOAM | ThirdParty)
 
             make realclean 2>/dev/null  # for safety
 
-            make -j $WM_NCOMPPROCS $configEnv scotch \
+            make -j $WM_NCOMPPROCS $configEnv libscotch \
             && make $configOpt install
 
             # cleanup, could also remove Makefile.inc
@@ -339,7 +339,7 @@ then
 
                 make realclean 2>/dev/null  # for safety
 
-                make -j $WM_NCOMPPROCS $configEnv ptscotch \
+                make -j $WM_NCOMPPROCS $configEnv libptscotch \
                 && make $configOpt install
 
                 # cleanup, could also remove Makefile.inc
